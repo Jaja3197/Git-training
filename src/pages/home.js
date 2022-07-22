@@ -4,12 +4,14 @@ import { Header } from "../components";
 import logo from "../images/NetflixLogo.png";
 import * as ROUTES from "../constants/routes"; 
 import background from "../images/background.jpeg";
+import Signin from "./signin";
+import { Container } from "../components/header/styles/header";
 
 export default function Home() {
     return (
         <div style={{ backgroundImage: `url(${background})`, height: "100vh" }}>
 
-        <Header >
+        <Header>
             <Header.Logo to={ROUTES.HOME} alt="Netflix" src={logo}/>
 
             <Header.Frame>

@@ -1,4 +1,4 @@
 export const HOME = "/";
-export const BROWSE = "C:\Users\Lucka\Desktop\cmder\netflex\src\pages\browse.js";
-export const SIGN_UP = "C:\Users\Lucka\Desktop\cmder\netflex\src\pages\signup.js";
-export const SIGN_IN = "C:\Users\Lucka\Desktop\cmder\netflex\src\pages\signin.js";
+export const BROWSE = "/browse";
+export const SIGN_UP = "C:\Users\Lucka\Desktop\cmder\netflix_clone3 – kópia\src\pages\signup.js";
+export const SIGN_IN = "/signin";
