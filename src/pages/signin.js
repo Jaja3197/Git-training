@@ -9,6 +9,16 @@ export default function Signin(){
 
     return (
     <>
-     <p>Hello from the signin</p>
+  <div style={{ backgroundImage: `url(${background})`, height: "100vh" }}>
+  <Header>
+            <Header.Logo to={ROUTES.HOME} alt="Netflix" src={logo}/>
+
+            <Header.Frame>
+          
+            <Header.ButtonLink to={ROUTES.SIGN_IN}>Sign In</Header.ButtonLink>
+           
+            </Header.Frame>
+</Header>
+</div>
     </>
 )}
