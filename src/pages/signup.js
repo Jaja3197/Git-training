@@ -1,10 +1,7 @@
 import React, {useState, useContext} from "react";
 import {FirebaseContext} from "../context/firebase";
 import { Header } from "../components";
-import logo from "../images/NetflixLogo.png";
 import * as ROUTES from "../constants/routes"; 
-import background from "../images/background.jpeg";
-import { Container } from "../components/emform/styles/emform";
 import {Form} from "../components";  
 import {useNavigate} from "react-router-dom";
 
@@ -45,9 +42,9 @@ const handleSignup = (event) => {
     return (
 
 <>
-  <div style={{ backgroundImage: `url(${background})`, height: "100vh" }}>
+  <div style={{ backgroundImage: `url(${"/images/background.jpeg"})`, height: "100vh" }}>
   <Header>
-            <Header.Logo to={ROUTES.HOME} alt="Netflix" src={logo}/>
+            <Header.Logo to={ROUTES.HOME} alt="Netflix" src={"/images/NetflixLogo.png"}/>
 
             <Header.Frame>
           
@@ -55,7 +52,6 @@ const handleSignup = (event) => {
            
             </Header.Frame>
             </Header>
-
             <Form>
                 <Form.Title>Sign Up</Form.Title>
     
