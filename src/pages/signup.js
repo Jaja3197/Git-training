@@ -29,7 +29,6 @@ const handleSignup = (event) => {
     //ak registrácia prebehla úspešne, ideme na stránku browse
     }).then(() => {
        navigate(ROUTES.BROWSE);
-       console.log("viiii")
     })
     ).catch((error) => {
         setEmailAddress("");

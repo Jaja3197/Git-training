@@ -1,6 +1,5 @@
 import React from "react";
 import * as ROUTES from "../constants/routes";
-//import logo from "../images/NetflixLogo.png";
 import { Header, Profiles } from "../components";
 
 
@@ -18,6 +17,7 @@ export function SelectProfileContainer({user, setProfile}){
         <Profiles.List>
     
             <Profiles.User
+            //po kliknutí nastav profil 
             onClick={() => setProfile ({
                             displayName: user.displayName,
                             photoURL: user.photoURL,
